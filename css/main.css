@@ -34,6 +34,7 @@ h1 {
     text-decoration: none;
 }
 .header-nav {
+    display: inline-flexbox;
     font-size: 1em;
     float: right;
     margin-right: 2em;
@@ -43,6 +44,7 @@ h1 {
     color: rgb(255, 255, 255);
     font-size: 1.3em;
     text-decoration: none;
+    width: 100%;
 }
 .header-nav a:hover {
     color: rgb(38, 91, 29);
@@ -174,9 +176,12 @@ input[type=text], input[type=password] {
     width: 45%;
     text-align: center;
 }
+.course:hover {
+    opacity: 0.3;
+}
 .bio p {
     color: rgb(201, 201, 201);
-    width: 25%;
+    width: 100%;
     font-size: 2em;
     padding-top: 2%;
     display: inline-block;
@@ -185,7 +190,7 @@ input[type=text], input[type=password] {
 
 .phys p {
     color: rgb(201, 201, 201);
-    width: 25%;
+    width: 100%;
     font-size: 2em;
     padding-top: 2%;
     display: inline-block;
@@ -193,7 +198,7 @@ input[type=text], input[type=password] {
 }
 .chem p {
     color: rgb(201, 201, 201);
-    width: 25%;
+    width: 100%;
     font-size: 2em;
     padding-top: 2%;
     display: inline-block;
@@ -201,7 +206,7 @@ input[type=text], input[type=password] {
 }
 .math p {
     color: rgb(201, 201, 201);
-    width: 25%;
+    width: 100%;
     font-size: 2em;
     padding-top: 2%;
     display: inline-block;
@@ -209,7 +214,7 @@ input[type=text], input[type=password] {
 }
 .eng p {
     color: rgb(201, 201, 201);
-    width: 25%;
+    width: 100%;
     font-size: 2em;
     padding-top: 2%;
     display: inline-block;
@@ -217,7 +222,7 @@ input[type=text], input[type=password] {
 }
 .fr p {
     color: rgb(201, 201, 201);
-    width: 25%;
+    width: 100%;
     font-size: 2em;
     padding-top: 2%;
     display: inline-block;
@@ -243,6 +248,10 @@ input[type=text], input[type=password] {
     margin-left: 1vh;
 
 }
+.side-bar a {
+    text-decoration: none;
+    color: rgb(120,120,120);
+}
 .bio {
     background-image: url('../images/bio.jpg');
     background-size: cover;
@@ -262,13 +271,12 @@ input[type=text], input[type=password] {
 .eng {
     background-image: url('../images/eng.jpg');
     background-size: cover;
-    background-image: url('../images/eng.png');
-    background-size: coverl;
 }
 .fr {
     background-image: url('../images/fr.jpg');
     background-size: cover;
 }
+
 
 
 /* Courses list */
@@ -284,4 +292,89 @@ input[type=text], input[type=password] {
     text-decoration: none;
     margin-top: 20vh;
     margin-left: -30vh;
+}
+.courses-list a {
+    text-decoration: none;
+    color: rgb(150,150,150);
+}
+.courses-list a:hover {
+    color: rgb(38, 91, 29);
+}
+
+/* example course */
+.excourse {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-color: rgb(174, 201, 171);
+}
+.examplecourse {
+    height: 70vh;
+    background-color: white;
+}
+.course-image {
+    height: 15vh;
+}
+.my-image {
+    height: 35vh;
+    width: 35vh;
+    border-radius: 50%;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+}
+.intro {
+    margin-top: 15vh;
+    width: 55%;
+    float: right;
+    margin-right: 15vh;
+    margin-bottom: 10vh;
+}
+.hello {
+    font-size: 3em;
+}
+.intro-text {
+    font-size: 2.5em;
+}
+
+.excourse-sidebar {
+    background-image: none;
+    max-height: 20vh;
+}
+.ec-side-bar {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding-top: 2vh;
+    width: 30vw;
+}
+.ec-side-bar a {
+    text-decoration: none;
+    color: black;
+}
+.ec-side-bar-row {
+    background-color: rgb(234, 234, 234);
+    border: 0.3px solid rgb(156, 156, 156);
+    box-sizing: border-box;
+    width: 95%;
+    height: 5vh;
+    padding: 1.5vh 2vh 0 2vh;
+    margin-top: 1vh;
+    margin-left: 1vh;
+
+}
+.course-feed {
+    border: 0.5px solid rgb(120,  120, 120);
+    background-color: white;
+    color: rgb(70,70,70);
+    padding: 1.5em;
+    width: 50vw;
+    max-height: 30vh;
+    transform: translate(80vh, -15vh);
+}
+.course-feed h2 {
+    font-size: 2em;
+}
+.course-feed p {
+    font-size: 1.5em;
 }

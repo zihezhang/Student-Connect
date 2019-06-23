@@ -199,3 +199,23 @@ input[type=text], input[type=password] {
     background-image: url('../images/bio.jpg');
     background-size: cover;
 }
+.chem {
+    background-image: url('../images/chem.jpg');
+    background-size: cover;
+}
+.phys {
+    background-image: url('../images/phys.jpg');
+    background-size: cover;
+}
+.math {
+    background-image: url('../images/math.jpg');
+    background-size: cover;
+}
+.eng {
+    background-image: url('../images/eng.jpg');
+    background-size: cover;
+}
+.fr {
+    background-image: url('../images/fr.jpg');
+    background-size: cover;
+}

@@ -378,3 +378,9 @@ input[type=text], input[type=password] {
 .course-feed p {
     font-size: 1.5em;
 }
+
+#book {
+    width: 50%;
+    height: 50%;
+    margin: 10% 5%;
+}

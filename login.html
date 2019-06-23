@@ -12,12 +12,35 @@
         <header class="header">
             <nav>
                 <ul class="header-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="courses.html">My Courses</a></li>
-                    <li><a href="profile.html">My Profile</a></li>
-                    <li><a href="notLoggedIn.html" class="login-link">Login</a></li>
+                    <li><a href="notLoggedIn.html">Home</a></li>
+                    <li><a href="login.html">My Courses</a></li>
+                    <li><a href="login.html">My Profile</a></li>
+                    <li><a href="login.html" class="login-link">Login</a></li>
                 </ul>
             </nav>
         </header>
+    
+<div class="login-wrapper">
     <img src="images/StudentConnectLogo.png" class="login-pic">
+    <form action="/action_page.php">
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+                
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+                        
+            <button type="submit"><a href="index.html">Login</a></button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+                
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+                
+    </form>
+</div>
     </body>

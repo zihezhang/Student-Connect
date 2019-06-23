@@ -1,0 +1,72 @@
+/* body styles */
+a {
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* HEADER STYLES */
+.header {
+    background-color: rgb(192, 192, 192);
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+}
+.header-logo {
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    height: 10vh;
+    float: left;
+    font-size: 1.5em;
+    padding: 3vh 0 0 5vh;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.header-nav {
+    font-size: 1em;
+    float: right;
+    margin-right: 2em;
+    padding: 3vh 1vh 0 0;
+}
+.header-nav a {
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    text-decoration: none;
+}
+.header-nav a:hover {
+    color: rgb(80, 164, 233);
+}
+.header-nav > li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 3em;
+}
+
+.header-nav .home-link {
+    color: rgb(80, 164, 233);
+}
+
+.header-nav .courses-link {
+    color: rgb(80, 164, 233);
+}
+.header-nav .profile-link {
+    color: rgb(80, 164, 233);
+}
+.header-nav .login-link {
+    color: rgb(80, 164, 233);
+}
+
+/* login page */
+.login-pic {
+    float: left;
+    height: 15vw;
+    margin-left: 42.5vw;
+    margin-top: 20vh;
+
+}

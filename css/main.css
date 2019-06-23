@@ -169,6 +169,16 @@ input[type=text], input[type=password] {
     height: 15vh;
     margin: 2vh;
     width: 45%;
+    text-align: center;
+}
+.course h2 {
+    color: black;
+    background: white;
+    width: 25%;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid black;
 }
 .side-bar {
     display: flex;
@@ -186,5 +196,6 @@ input[type=text], input[type=password] {
 
 }
 .bio {
-    background-image: url(/images/bio.jpg);
+    background-image: url('../images/bio.jpg');
+    background-size: cover;
 }
